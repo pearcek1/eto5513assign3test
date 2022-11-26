@@ -1,3 +1,21 @@
 # Step 1:
 
 Create something to be pushed into github repository
+
+# Step 2:
+
+```{R}
+
+library(tidyverse)
+library(ggplot2)
+
+set.seed(4567)
+
+df <- data.frame(xin = sample(1:100,1000,replace = TRUE)) %>%
+        group_by(xin) %>%
+        summarise(obs = n())
+
+ggplot(df,aes(xin,obs)) +
+  geom_col()
+
+```
