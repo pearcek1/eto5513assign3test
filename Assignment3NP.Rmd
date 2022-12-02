@@ -1,0 +1,39 @@
+# Step 1:
+
+Create something to be pushed into github repository
+
+# Step 2:
+
+```{R}
+
+library(tidyverse)
+library(ggplot2)
+
+set.seed(4567)
+
+df <- data.frame(xin = sample(1:100,1000,replace = TRUE)) %>%
+        group_by(xin) %>%
+        summarise(obs = n())
+
+ggplot(df,aes(xin,obs)) +
+  geom_col()
+
+```
+
+# Step 3 - KP Random Numbers
+
+I am adding this section to create a change that needs to be pushed to the remote repository. 
+
+```{r randomnoise_normal,out.width = ‘60%’, echo = FALSE, fig.align = “center”}
+
+set.seed(5858)
+
+x = seq(1:100) 
+y = rnorm(100) 
+dat = data.frame(x, y) 
+ggplot(dat, aes(x = x, y = y)) + 
+  geom_line() +
+  labs(title = 'Random Normal Distribution of 100 samples') +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(colour = 'grey'))
+```
