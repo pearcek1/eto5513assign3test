@@ -19,3 +19,19 @@ ggplot(df,aes(xin,obs)) +
   geom_col()
 
 ```
+
+# Step 3 - KP Random Numbers
+
+```{r randomnoise_normal,out.width = ‘60%’, echo = FALSE, fig.align = “center”}
+
+set.seed(5858)
+
+x = seq(1:100) 
+y = rnorm(100) 
+dat = data.frame(x, y) 
+ggplot(dat, aes(x = x, y = y)) + 
+  geom_line() +
+  labs(title = 'Random Normal Distribution of 100 samples') +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(colour = 'grey'))
+```
