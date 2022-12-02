@@ -1,0 +1,490 @@
+    1  pwd
+    2  ls Documents
+    3  cd
+    4  pwd
+    5  cd g
+    6  cd Documents
+    7  pwd
+    8  cd
+    9  cd Google Drive
+   10  cd 'Google Drive'
+   11  pwd
+   12  ls
+   13  cd 'my drive'
+   14  cd 'My Drive'
+   15  pwd
+   16  ls -a
+   17  cd "My Drive"
+   18  cd "Google Drive"
+   19  ls
+   20  cd Education
+   21  cd "Google Drive"
+   22  pwd
+   23  ls
+   24  cd .
+   25  c..
+   26  cd../..
+   27  cd
+   28  ls
+   29  cd /'Google Drive'
+   30  ls "Google Drive"
+   31  pwd
+   32  pwd
+   33  cd
+   34  cd c/"Google Drive"
+   35  pwd
+   36  ls
+   37  cd c/Users/Kim Pearce/Google Drive
+   38  cd /Google Drive
+   39  cd /"Google Drive"
+   40  cd "Google Drive"
+   41  pwd
+   42  ls
+   43  pwd
+   44  cd
+   45  pwd
+   46  cd /g
+   47  ls
+   48  cd .
+   49  cd ..
+   50  pwd
+   51  cd /g
+   52  ls
+   53  cd 'My Drive'
+   54  ls
+   55  pwd
+   56  ls -d
+   57  ls-tree -d -r
+   58  ls -ld -- */
+   59  cd Education
+   60  ls -ld
+   61  ls -ld -- */
+   62  cd Kim
+   63  ls -ld -- */
+   64  cd 'ETO5513 - TP22_06'
+   65  ls
+   66  test.txt
+   67  touch test.txt
+   68  ls
+   69  rm test.txt
+   70  ls
+   71  touch test.txt
+   72  ls
+   73  cp test.txt
+   74  cp test.txt test2.txt
+   75  ls
+   76  git config --global user.email "kpea0002@student.monash.edu"
+   77  git config --global user.name "kpea0002"
+   78  git config --global user.email
+   79  pwd
+   80  cd Google\ Drive
+   81  ls
+   82  ..
+   83  pwd
+   84  cd ..
+   85  pw
+   86  pwd
+   87  ls
+   88  cd G
+   89  cd G:
+   90  cd "My Drive"
+   91  ls
+   92  cd //
+   93  cd ..
+   94  pwd
+   95  cd 
+   96  ls
+   97  cd 'Google Drive'
+   98  ls
+   99  cd 'My Drive'
+  100  cd ..
+  101  cd G
+  102  cd /G
+  103  ls
+  104  cd 'My Drive'
+  105  cd ..
+  106  cd /G/My Drive
+  107  cd /G/My\ Drive/
+  108  pwd
+  109  cd.. 
+  110  cd ..
+  111  cd ..
+  112  pwd
+  113  cd ..
+  114  pwd
+  115  ls
+  116  cd /G
+  117  ls
+  118  cd 'My Drive'
+  119  pwd
+  120  ls
+  121  cd Education/
+  122  ls
+  123  cd Kim/
+  124  ls
+  125  cd ETO5513\ -\ TP22_06/
+  126  ls
+  127  pwd
+  128  pwd ../..
+  129  pwd
+  130  cd ../..
+  131  cd ../..
+  132  cd ../..
+  133  cd ../..
+  134  cd /G
+  135  cd 'My Drive'/
+  136  cd Education/
+  137  cd Kim/
+  138  ls
+  139  cd ETO5513\ -\ TP22_06/
+  140  pwd
+  141  ls
+  142  test.txt
+  143  touch test1.txt
+  144  ls
+  145  rm test1.txt
+  146  ls
+  147  cd ..
+  148  pwd
+  149  pwd
+  150  pwd
+  151  cd ..
+  152  cd ..
+  153  ls
+  154  ls -d
+  155  ls -d */
+  156  cd ..
+  157  cd ..
+  158  cd /G/My\ Drive/
+  159  pwd
+  160  cd ..
+  161  cd ..
+  162  cd /G/My\ Drive/Education/
+  163  ls -d */
+  164  cd ../..
+  165  cd ../..
+  166  cd /G/My\ Drive/
+  167  cd 'Code Library'
+  168  cd CD_LIBRARY
+  169  ls
+  170  cd CODE_LIBRARY
+  171  ls
+  172  ls -l | egrep -v 'jpg$'
+  173  ls | egrep '\.jpg$'
+  174  ls | egrep '\.pdf$'
+  175  ls | egrep '\.pdf$?\''
+  176  ls | egrep '\.pdf$?'''
+  177  ls
+  178  ls *.txt
+  179  pwd
+  180  ls | egrep '*.R$'
+  181  ls *.R
+  182  ls | egrep '?\'$'
+  183  file
+  184  egrep "Code(R)"
+  185  ls -R
+  186  ls -l
+  187  ls | grop '\.r'
+  188  ls | grep '\.r'
+  189  ls | grep '\.py'
+  190  ls | grep 'CODE(R)'
+  191  clear
+  192  ls -d
+  193  ls
+  194  pwd
+  195  cd ../..
+  196  pwd
+  197  cd ../..
+  198  ls
+  199  cd ../..
+  200  cd /c
+  201  ls -d */
+  202  cd Users/
+  203  ls -d */
+  204  pwd
+  205  cd 'Kim Pearce'
+  206  ls - d ?*
+  207  ls -d */
+  208  cd OneDrive
+  209  ls -d */
+  210  ls
+  211  cd Desktop/
+  212  ls
+  213  touch Assessment1
+  214  ls
+  215  ls
+  216  mkdr Assessment1
+  217  mkdir Assessment1
+  218  ls
+  219  mkdir Folder1 Folder2 Folder3
+  220  ls
+  221  rm Folder1
+  222  dirrm Folder1
+  223  rmdir Folder1
+  224  ls
+  225  rmdir Folder2 Folder3
+  226  ls
+  227  pwd
+  228  cd Assessment1/
+  229  ls
+  230  mkdir part1
+  231  ls
+  232  cd part1/
+  233  touch example.rmd
+  234  touch example1.rmd
+  235  ls
+  236  rm example1.rmd
+  237  la
+  238  ls
+  239  ls -al ~/.ssh
+  240  ssh-keygen -t ed25519 -C "kpea0002@student.monash.edu"
+  241  ssh-keygen -y
+  242  ssh-keygen -y
+  243  ssh-keygen -y
+  244  ssh-keygen -y
+  245  ssh-keygen -y -f /c/Users/Ki Pearce/.ssh/id_ed25519
+  246  ssh-keygen
+  247  ssh-keygen -y
+  248  pwd
+  249  ssh-keygen -y
+  250  cd ../..
+  251  cd ../..
+  252  cd /c/Users/Kim Pearce/.ssh
+  253  cd /c/Users/Kim Pearce/.ssh/
+  254  ssh-keygen -y
+  255  ssh-keygen -y
+  256  cd /c/Users/'Kim Pearce'
+  257  ls
+  258  cd .ssh/
+  259  ls
+  260  ssh-keygen -y
+  261  ssh-keygen -y
+  262  ssh-keygen -y
+  263  ssh-keygen /c/Users/Kim\ Pearce/.ssh/id_ed25519
+  264  ssh-keygen ed25519
+  265  ssh-keygen ed25519 -t ed25519
+  266  ssh-keygen -t ed25519
+  267  ssh-keygen -y 
+  268  ssh-keygen -t ed25519 -C "kpea0002@student.monash.edu"
+  269  ssh-keygen -p -f ~/.ssh/id_ed22519
+  270  ssh-keygen -p -f ~/.ssh/id_ed25519
+  271  ssh-keygen -p -f ~/.ssh/id_ed22519
+  272  ssh-keygen -p -f ~/.ssh/id_ed25519
+  273  pw
+  274  pwd
+  275  cd .ssh
+  276  pwd
+  277  ls
+  278  eval `ssh-agent - s`
+  279  eval `ssh-agent -s`
+  280  ssh-add id_ed25519
+  281  ssh
+  282  pd
+  283  pwd
+  284  ls
+  285  ls -d */
+  286  cd OneDrive/
+  287  ls
+  288  ls -d */
+  289  cd Desktop/
+  290  ls
+  291  rmdir Assessment1
+  292  ls
+  293  rmdir Assessment1/
+  294  rm -rf Assessment1/
+  295  pwd
+  296  mkdir Assessment1/
+  297  ls
+  298  cd Assessment1/
+  299  mkdir part1
+  300  ls
+  301  cd part1/
+  302  touch example.rmd example1.rmd
+  303  ls
+  304  rm example1.rmd
+  305  ls
+  306  pwd
+  307  ls -d */
+  308  cd OneDrive/
+  309  ls -d */
+  310  ls
+  311  mkdir Assessment1/
+  312  ls
+  313  s
+  314  cd Assessment1/
+  315  pwd
+  316  mkdir part1/
+  317  ls -d */
+  318  touch example.rmd example1.rmd
+  319  ls
+  320  pwd
+  321  ls -d */
+  322  cd OneDrive/
+  323  ls -d */
+  324  cd Deskptop/
+  325  cd Desktop/
+  326  ls
+  327  mkdir Assessment1/
+  328  ls
+  329  cd Assessment1/
+  330  mkdir part1/
+  331  ls
+  332  pwd
+  333  cd part1/
+  334  touch example.rmd example1.rmd
+  335  ls
+  336  rm example1
+  337  rm example1.rmd
+  338  ls
+  339  cd ../..
+  340  cd ../..
+  341  cd OneDrive/Desktop
+  342  ls
+  343  cd OneDrive/Desktop
+  344  cd OneDrive/Desktop/
+  345  cd OneDrive/
+  346  pwd
+  347  cd OneDrive/Desktop
+  348  clear
+  349  cv ../..
+  350  cd ../..
+  351  clear
+  352  cd OneDrive/Desktop
+  353  cd OneDrive/Desktop/
+  354  cd OneDrive/Desktop/
+  355  clear
+  356  cd ../..
+  357  clear
+  358  cd OneDrive/Desktop
+  359  clear
+  360  clear
+  361  cd OneDrive/Desktop
+  362  cd ../..
+  363  clear
+  364  cd OneDrive/Desktop
+  365  cd OneDrive/Desktop/
+  366  pwd
+  367  cd OneDrive/Desktop
+  368  cd ../..
+  369  clear
+  370  cd OneDrive/Desktop
+  371  cd OneDrive/Desktop
+  372  pwd
+  373  ls
+  374  mkdir Assessment1
+  375  mkdir Assessment1/
+  376  mkdir Assessment1
+  377  ls
+  378  ls
+  379  ls
+  380  ls
+  381  ls
+  382  l
+  383  ls
+  384  clear
+  385  cd Assessment1/
+  386  cd Assessment1/
+  387  mkdir part1
+  388  ls
+  389  cd part1/
+  390  cd part1
+  391  touch example.rmd example1.rmd
+  392  touch example.rmd example1.rmd
+  393  ls
+  394  rm example1.rmd
+  395  rm example.rmd
+  396  ls
+  397   ls
+  398  ls
+  399  clear
+  400  cd ../..
+  401  cd ../..
+  402  ls
+  403  s
+  404  ls
+  405  s
+  406  clear
+  407  cd OneDrive/Desktop
+  408  ls
+  409  leaer
+  410  clear
+  411  ls
+  412  ls
+  413  cd
+  414  ls
+  415  clear
+  416  cd OneDrive/Desktop
+  417  ls
+  418  mkdir Assessment1/
+  419  cd Assessment1
+  420  cd part1
+  421  mkdir part1
+  422  cd part1
+  423  touch example.rmd example1.rmd
+  424  ls
+  425  rm example1.rmd
+  426  ls
+  427  pwd
+  428  ls
+  429  cd _
+  430  cd *
+  431  cd -
+  432  pwd
+  433  cd --
+  434  pwd
+  435  cd -
+  436  cd -
+  437  cd 'Google Drive'
+  438  ls
+  439  cd --
+  440  ls
+  441  cd -d */
+  442  cd -d *.
+  443  cd -d
+  444  cd --
+  445  ls
+  446  cd OneDrive
+  447  ls
+  448  ls -d */
+  449  ls --
+  450  ls --
+  451  cd --
+  452  ls -d */
+  453  cd /g/My\ Drive/
+  454  ls
+  455  ls -d */
+  456  cd Education/
+  457  cd -d */
+  458  cd -d */
+  459  ls -d */
+  460  cd Kim/
+  461  ls
+  462  cd ETO5513\ -\ TP22_06/
+  463  ls
+  464  mkdir Assignment3
+  465  ls -d */
+  466  cd Assignment3
+  467  git remote -v
+  468  git remote add origin https://github.com/pearcek1/eto5513assign3test.git
+  469  git remote add origin https://github.com/pearcek1/eto5513assign3test.git
+  470  git init .
+  471  git remote add origin https://github.com/pearcek1/eto5513assign3test.git
+  472  pwd
+  473  touch Assignment3.Rproj
+  474  ls
+  475  touch Assignment3.rmd
+  476  rm Assignment3.Rproj
+  477  ls
+  478  touch Assignment3.Rproj
+  479  ls
+  480  rm Assignment3.Rproj
+  481  rm Assignment3.rmd
+  482  ls
+  483  touch Assignment3.rmd
+  484  git remote -v
+  485  git add .
+  486  git commit -m 'Initial file population'
+  487  git push origin main
+  488  git push origin master
+  489  history
+  490  history > history.txt
