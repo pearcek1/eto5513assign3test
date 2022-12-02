@@ -22,6 +22,8 @@ ggplot(df,aes(xin,obs)) +
 
 # Step 3 - KP Random Numbers
 
+I am adding this section to create a change that needs to be pushed to the remote repository. 
+
 ```{r randomnoise_normal,out.width = ‘60%’, echo = FALSE, fig.align = “center”}
 
 set.seed(5858)
